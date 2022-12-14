@@ -1,7 +1,7 @@
 
 import './App.css';
 
-import Apiform from "./Component/Apiform"
+import Loginform from "./Component/Loginform"
 
 
 
@@ -9,7 +9,7 @@ import Apiform from "./Component/Apiform"
 function App() {
  return (
    <div>
-    <Apiform/>
+    <Loginform/>
    </div>
   );
 }
