@@ -8,7 +8,7 @@ const handleSubmit = async() => {
       // make axios post request
       const response = await axios({
         method: "post",
-        url: "http://localhost:3000/api/post_form",
+        url: "/api/login",
         data: loginFormData,
         headers: { "Content-Type": "multipart/form-data" },
       });
